@@ -11,4 +11,17 @@ p, h2{
     background-color:none;
     color: aliceblue;
 }
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    background-color: #0000008a;
+    color: #ff0000;
+    align-items: center;
+}
 
+#logo-img {
+    height: 115px;
+    width: 115px;
+    border-radius: 100px;
+}
