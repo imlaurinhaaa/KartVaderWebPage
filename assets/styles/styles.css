@@ -1,0 +1,14 @@
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+
+body{
+    background-image: url(/assets/images/background.jpg)
+}
+
+
+
+p, h2{
+    font-family: 'Star Wars', sans-serif;
+    background-color:none;
+    color: aliceblue;
+}
+
