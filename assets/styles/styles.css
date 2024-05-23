@@ -1,5 +1,5 @@
-@import url('https://fonts.cdnfonts.com/css/star-wars');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.cdnfonts.com/css/star-wars");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .poppins-semibold {
   font-family: "Poppins", sans-serif;
@@ -7,111 +7,118 @@
   font-style: normal;
 }
 
-*{
+* {
   text-decoration: none;
-
-}
-body{
-    background-image: url(/assets/images/background.jpg)
 }
 
-
-
-h1 ,h2, h3{
-    font-family: 'Star Wars', sans-serif;
-    background-color:none;
-    color: #ffffff;
+body {
+  background-image: url(/assets/images/background.jpg);
 }
 
-p{
+h1,
+h2,
+h3 {
+  font-family: "Star Wars", sans-serif;
+  background-color: none;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  font-size: medium;
   font-style: normal;
-  color: #ffffffd8;
-
+  color: #ffffff;
+  margin-left: 20px;
+  margin-right: 35px;
 }
 
 header {
-    display: flex;
-    justify-content: space-around;
-    height: 150px;
-    background-color: #0000008a;
-    color: #1945a398;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  height: 150px;
+  background-color: #0000008a;
+  color: #1945a398;
+  align-items: center;
 }
 
 #logo-img {
-    height: 115px;
-    width: 115px;
-    border-radius: 100px;
+  height: 115px;
+  width: 115px;
+  border-radius: 100px;
 }
 
 .links {
-    font-family: "Poppins", sans-serif;
-    display: flex;
-    justify-content: space-around;
-    width: 60%;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
 }
 .links a {
-
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 1.0rem;
-    border-bottom: 3px solid transparent;
-    border-radius: 6px;
-    transition: 0.3s ease-in-out;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  border-bottom: 3px solid transparent;
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
 }
 
 .links a:hover {
-    border-bottom: 3px solid #0e57f4 ;
-    color: #0e57f4;
-    transform: scale(1.1);
+  border-bottom: 3px solid #0e57f4;
+  color: #0e57f4;
+  transform: scale(1.1);
 }
 
 #carousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin: 20px;
 }
 
 #carousel img {
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 #main-new {
-    width: 70%;
-    background-color: #ffffff;
+  width: 70%;
+  background-color: #1945a398;
+  margin-left: 20px;
+  margin-right: 40px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 10px #ffffff;
 }
 
 #aside {
-    width: 28%;
-    background-color: rgb(28, 51, 128);
+  width: 38%;
 }
 
 #aside img {
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    object-fit: cover;
+  height: 95%;
+  width: 95%;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 30px ;
 }
 
- main {
-    display: flex;
-    justify-content: space-around;
- }
+main {
+  display: flex;
+  justify-content: space-around;
+}
 
- .heading {
-    font-size: 2rem; /* Define o tamanho da fonte equivalente a 40px */
-    text-align: center; /* Alinha o texto ao centro */
-    margin: 5rem 0; /* Adiciona uma margem */
-  }
+.heading {
+  font-size: 2rem; /* Define o tamanho da fonte equivalente a 40px */
+  text-align: center; /* Alinha o texto ao centro */
+  margin: 5rem 0; /* Adiciona uma margem */
+}
 
- .education {
+.education {
   padding: 100px 15px; /* Adiciona um espaçamento interno */
   background: var(--secondary-bg-color); /* Define a cor de fundo */
 }
@@ -129,18 +136,18 @@ header {
 }
 
 .timeline-items::before {
-    /* Adiciona um pseudo-elemento */
-    content: ""; /* Adiciona um conteúdo vazio */
-    position: absolute; /* Define a posição absoluta */
-    width: 5px; /* Define a largura */
-    height: 100%; /* Define a altura */
-    background-color: #1945a398; /* Define a cor de fundo */
-    left: calc(50% - 1px); /* Define a distância da esquerda */
-    top: 0; /* Define a distância do topo */
-    transform: translateX(-50%); /* Adiciona um efeito de translação */
-    border-radius: 5px; /* Adiciona um raio nas bordas */
-  }
-  
+  /* Adiciona um pseudo-elemento */
+  content: ""; /* Adiciona um conteúdo vazio */
+  position: absolute; /* Define a posição absoluta */
+  width: 5px; /* Define a largura */
+  height: 100%; /* Define a altura */
+  background-color: #1945a398; /* Define a cor de fundo */
+  left: calc(50% - 1px); /* Define a distância da esquerda */
+  top: 0; /* Define a distância do topo */
+  transform: translateX(-50%); /* Adiciona um efeito de translação */
+  border-radius: 5px; /* Adiciona um raio nas bordas */
+}
+
 .timeline-item {
   margin-bottom: 40px; /* Adiciona uma margem */
   width: 100%; /* Define a largura */
@@ -165,14 +172,14 @@ header {
 }
 
 .timeline-dot {
-    height: 21px; /* Define a altura */
-    width: 21px; /* Define a largura */
-    background-color:#1945a398; /* Define a cor de fundo */
-    box-shadow: 0 0 20px #1945a398, 0 0 30px #1945a398; /* Adiciona uma sombra */
-    position: absolute; /* Define a posição absoluta */
-    left: calc(50% - 11px); /* Define a distância da esquerda */
-    border-radius: 50%; /* Adiciona um raio nas bordas */
-  }
+  height: 21px; /* Define a altura */
+  width: 21px; /* Define a largura */
+  background-color: #1945a398; /* Define a cor de fundo */
+  box-shadow: 0 0 20px #1945a398, 0 0 30px #1945a398; /* Adiciona uma sombra */
+  position: absolute; /* Define a posição absoluta */
+  left: calc(50% - 11px); /* Define a distância da esquerda */
+  border-radius: 50%; /* Adiciona um raio nas bordas */
+}
 .timeline-date {
   font-size: 1.6rem; /* Define o tamanho da fonte equivalente a 16px */
   font-weight: 800; /* Define o peso da fonte */
@@ -213,7 +220,7 @@ header {
   height: 150px;
   width: 150px;
   border-radius: 100px;
-  margin-bottom: 5rem; 
+  margin-bottom: 5rem;
   margin-left: 160px;
 }
 
@@ -222,14 +229,14 @@ header {
   width: 150px;
   border-radius: 100px;
   margin-bottom: 5rem;
-  margin-left: 850px; 
+  margin-left: 850px;
 }
 
 #Dev1-img {
   height: 150px;
   width: 150px;
   border-radius: 100px;
-  margin-bottom: 5rem; 
+  margin-bottom: 5rem;
   margin-left: 160px;
 }
 
@@ -238,15 +245,13 @@ header {
   width: 150px;
   border-radius: 100px;
   margin-bottom: 5rem;
-  margin-left: 850px; 
+  margin-left: 850px;
 }
 
 #Dev3-img {
   height: 150px;
   width: 150px;
   border-radius: 100px;
-  margin-bottom: 5rem; 
+  margin-bottom: 5rem;
   margin-left: 160px;
 }
-
-
