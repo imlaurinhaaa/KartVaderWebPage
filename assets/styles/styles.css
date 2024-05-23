@@ -55,8 +55,8 @@ header {
 }
 
 .links a:hover {
-    border-bottom: 3px solid rgb(255, 255, 255) ;
-    color: rgb(255, 255, 255);
+    border-bottom: 3px solid #6a99ff ;
+    color: #6a99ff;
     transform: scale(1.1);
 }
 
