@@ -6,10 +6,10 @@ body{
 
 
 
-p, h2{
+h1 ,h2, h3{
     font-family: 'Star Wars', sans-serif;
     background-color:none;
-    color: aliceblue;
+    color: #ffffffd8;
 }
 header {
     display: flex;
