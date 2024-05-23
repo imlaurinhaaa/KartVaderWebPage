@@ -9,7 +9,7 @@ body{
 p, h2{
     font-family: 'Star Wars', sans-serif;
     background-color:none;
-    color: aliceblue;
+    color: #1945a398;
 }
 header {
     display: flex;
