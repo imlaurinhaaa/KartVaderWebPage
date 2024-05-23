@@ -61,3 +61,17 @@ header {
     border-radius: 10px;
     object-fit: cover;
 }
+
+#main-new {
+    width: 70%;
+    background-color: #ffffff;
+}
+
+#aside {
+    width: 28%;
+    background-color: rgb(28, 51, 128);
+}
+ main {
+    display: flex;
+    justify-content: space-around;
+ }
