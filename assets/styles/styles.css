@@ -32,7 +32,7 @@ header {
     width: 50%;
 }
 
-#links a {
+.links a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
@@ -41,7 +41,7 @@ header {
     transition: 0.3s ease-in-out;
 }
 
-#links a:hover {
+.links a:hover {
     border-bottom: 3px solid rgb(255, 255, 255) ;
     color: rgb(255, 255, 255);
     transform: scale(1.1);
