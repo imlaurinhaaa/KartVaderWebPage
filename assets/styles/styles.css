@@ -55,8 +55,8 @@ header {
 }
 
 .links a:hover {
-    border-bottom: 3px solid #6a99ff ;
-    color: #6a99ff;
+    border-bottom: 3px solid #0e57f4 ;
+    color: #0e57f4;
     transform: scale(1.1);
 }
 
@@ -202,39 +202,43 @@ header {
 }
 
 #P-0-img {
-  height: 115px;
-  width: 115px;
+  height: 150px;
+  width: 150px;
   border-radius: 100px;
   margin-bottom: 5rem; 
-  
+  margin-left: 160px;
 }
 
 #SMaster-img {
-  height: 115px;
-  width: 115px;
+  height: 150px;
+  width: 150px;
   border-radius: 100px;
-  margin-bottom: 5rem; 
+  margin-bottom: 5rem;
+  margin-left: 850px; 
 }
 
 #Dev1-img {
-  height: 115px;
-  width: 115px;
+  height: 150px;
+  width: 150px;
   border-radius: 100px;
   margin-bottom: 5rem; 
+  margin-left: 160px;
 }
 
 #Dev2-img {
-  height: 115px;
-  width: 115px;
+  height: 150px;
+  width: 150px;
   border-radius: 100px;
-  margin-bottom: 5rem; 
+  margin-bottom: 5rem;
+  margin-left: 850px; 
 }
 
 #Dev3-img {
-  height: 115px;
-  width: 115px;
+  height: 150px;
+  width: 150px;
   border-radius: 100px;
   margin-bottom: 5rem; 
+  margin-left: 160px;
 }
 
 
