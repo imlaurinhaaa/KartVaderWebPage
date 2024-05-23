@@ -16,7 +16,7 @@ header {
     justify-content: space-around;
     height: 150px;
     background-color: #0000008a;
-    color: #ff0000;
+    color: #1945a398;
     align-items: center;
 }
 
@@ -24,4 +24,40 @@ header {
     height: 115px;
     width: 115px;
     border-radius: 100px;
+}
+
+#links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+#links a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    border-bottom: 3px solid transparent;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+#links a:hover {
+    border-bottom: 3px solid rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
+#carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 20px;
+}
+
+#carousel img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
 }
