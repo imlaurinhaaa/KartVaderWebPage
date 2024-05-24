@@ -304,7 +304,7 @@ main {
   margin-left: 160px;
 }
 
-#Members{
+.Members{
   display: flex;
   flex-direction: column;
 }
@@ -314,7 +314,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; 
+  height: 70vh; 
 }
 
 #Carrinho3D {
@@ -331,5 +331,69 @@ main {
   cursor: pointer; 
   transition: 0.3s ease-in-out; 
   width: 60rem;
+  margin-bottom: 10%;
 }
 
+.Sustentabilidade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  
+}
+
+
+#sustainability {
+  background: #1945a398; 
+  border: 1px solid #ffffff; 
+  padding: 50px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px #ffffff; 
+  cursor: pointer; 
+  transition: 0.3s ease-in-out; 
+  width: 60rem;
+  margin-bottom: 2%;
+}
+
+#MDF {
+  font-size: 10 rem;
+  display: flex;
+  justify-content: end;
+  margin-right: 12rem;
+  width: 60rem;
+}
+
+#text6 {
+  flex-direction: column;
+}
+
+#bMDF {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+
+}
+
+#PLA {
+  font-size: 10 rem;
+  display: flex;
+  justify-content: end;
+  margin-right: 12rem;
+  width: 60rem;
+}
+
+#text7 {
+  flex-direction: column;
+}
+
+#cPLA {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+
+}
+
+.Sustentabilidade h2 {
+  margin-bottom: 2%; 
+}
