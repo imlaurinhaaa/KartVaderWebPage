@@ -222,6 +222,7 @@ main {
   border-radius: 100px;
   margin-bottom: 5rem;
   margin-left: 160px;
+  position: fixed;
 }
 
 #SMaster-img {
@@ -230,6 +231,7 @@ main {
   border-radius: 100px;
   margin-bottom: 5rem;
   margin-left: 1160px;
+  position:fixed;
 }
 
 #Dev1-img {
@@ -238,6 +240,7 @@ main {
   border-radius: 100px;
   margin-bottom: 5rem;
   margin-left: 160px;
+  position: fixed;
 }
 
 #Dev2-img {
@@ -246,6 +249,7 @@ main {
   border-radius: 100px;
   margin-bottom: 5rem;
   margin-left: 1160px;
+  position: fixed;
 }
 
 #Dev3-img {
@@ -254,4 +258,5 @@ main {
   border-radius: 100px;
   margin-bottom: 5rem;
   margin-left: 160px;
+  position: fixed;
 }
