@@ -304,7 +304,7 @@ main {
   margin-left: 160px;
 }
 
-.Members{
+#Members{
   display: flex;
   flex-direction: column;
 }
@@ -314,7 +314,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 70vh; 
+  height: 100vh; 
 }
 
 #Carrinho3D {
@@ -331,7 +331,6 @@ main {
   cursor: pointer; 
   transition: 0.3s ease-in-out; 
   width: 60rem;
-  margin-bottom: 10%;
 }
 
 .Sustentabilidade {
