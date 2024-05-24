@@ -188,7 +188,7 @@ main {
   background: #1945a398; 
   border: 1px solid #ffffff; 
   padding: 30px 50px; 
-  border-radius: 5px; 
+  border-radius: 10px; 
   box-shadow: 0 0 10px #ffffff; 
   cursor: pointer; 
   transition: 0.3s ease-in-out; 
@@ -234,7 +234,8 @@ main {
 #Smaster {
   font-size: 10 rem;
   display: flex;
-  margin-left: 55rem; 
+  justify-content: end; 
+  margin-right: 12rem;
 }
 
 #text2 {
@@ -270,7 +271,8 @@ main {
 #Dev2 {
   font-size: 10 rem;
   display: flex;
-  margin-left: 55rem; 
+  justify-content: end;
+  margin-right: 12rem;
 }
 
 #text4 {
@@ -302,3 +304,32 @@ main {
   margin-left: 160px;
 }
 
+#Members{
+  display: flex;
+  flex-direction: column;
+}
+
+.Carro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+#Carrinho3D {
+  height: 25em;
+  margin-bottom: 5%;
+}
+
+#car {
+  background: #1945a398; 
+  border: 1px solid #ffffff; 
+  padding: 50px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px #ffffff; 
+  cursor: pointer; 
+  transition: 0.3s ease-in-out; 
+  width: 60rem;
+  margin-bottom: auto;
+}
