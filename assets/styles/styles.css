@@ -216,13 +216,31 @@ main {
   line-height: 1.2; /* Define a altura da linha */
 }
 
+#P-o {
+  font-size: 10 rem;
+  display: flex;
+  
+}
+
+#text1 {
+  flex-direction: column;
+}
+
 #P-0-img {
   height: 180px;
   width: 180px;
   border-radius: 100px;
   margin-bottom: 5rem;
   margin-left: 160px;
-  position: fixed;
+}
+
+#Smaster {
+  font-size: 10 rem;
+}
+
+#text2 {
+  flex-direction: column;
+   margin-left: 850px;
 }
 
 #SMaster-img {
@@ -231,7 +249,16 @@ main {
   border-radius: 100px;
   margin-bottom: 5rem;
   margin-left: 1160px;
-  position:fixed;
+}
+
+#Dev1 {
+  font-size: 10 rem;
+  display: flex;
+  
+}
+
+#text3 {
+  flex-direction: column;
 }
 
 #Dev1-img {
@@ -240,7 +267,15 @@ main {
   border-radius: 100px;
   margin-bottom: 5rem;
   margin-left: 160px;
-  position: fixed;
+}
+
+#Dev2 {
+  font-size: 10 rem;
+}
+
+#text4 {
+  flex-direction: column;
+  margin-left: 800px;
 }
 
 #Dev2-img {
@@ -249,7 +284,16 @@ main {
   border-radius: 100px;
   margin-bottom: 5rem;
   margin-left: 1160px;
-  position: fixed;
+}
+
+#Dev3 {
+  font-size: 10 rem;
+  display: flex;
+  
+}
+
+#text5 {
+  flex-direction: column;
 }
 
 #Dev3-img {
@@ -258,5 +302,4 @@ main {
   border-radius: 100px;
   margin-bottom: 5rem;
   margin-left: 160px;
-  position: fixed;
 }
