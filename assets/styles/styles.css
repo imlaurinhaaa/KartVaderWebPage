@@ -38,7 +38,7 @@ p {
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content:space-between;
   height: 150px;
   background-color: #0000008a;
   color: #1945a398;
@@ -139,6 +139,7 @@ main {
 
 .education h2 {
   margin-bottom: 5rem; 
+  
 }
 
 .timeline-items {
