@@ -420,3 +420,22 @@ footer a {
   font-weight: 500;
 }
 
+#finish {
+  margin-top: 8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+#class {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+}
+
+#gif {
+  width: 80%; 
+  border-radius: 10px; 
+  object-fit: cover;
+}
