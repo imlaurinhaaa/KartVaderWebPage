@@ -1,5 +1,5 @@
-@import url('https://fonts.cdnfonts.com/css/star-wars');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.cdnfonts.com/css/star-wars");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .poppins-semibold {
   font-family: "Poppins", sans-serif;
@@ -7,202 +7,451 @@
   font-style: normal;
 }
 
-*{
+* {
   text-decoration: none;
-
-}
-body{
-    background-image: url(/assets/images/background.jpg)
+  scroll-behavior: smooth;
 }
 
-
-
-h1 ,h2, h3{
-    font-family: 'Star Wars', sans-serif;
-    background-color:none;
-    color: #ffffffd8;
+body {
+  background-image: url(/assets/images/background.jpg);
+  margin-top: 12rem;
 }
+
+h1,
+h2,
+h3 {
+  font-family: "Star Wars", sans-serif;
+  background-color: none;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: medium;
+  font-style: normal;
+  color: #ffffff;
+  margin-left: 20px;
+  margin-right: 35px;
+}
+
 header {
-    display: flex;
-    justify-content: space-around;
-    height: 150px;
-    background-color: #0000008a;
-    color: #1945a398;
-    align-items: center;
+  display: flex;
+  justify-content:space-between;
+  height: 150px;
+  background-color: #0000008a;
+  color: #1945a398;
+  align-items: center;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 5;
+  backdrop-filter: blur(10px);
+  
 }
 
 #logo-img {
-    height: 115px;
-    width: 115px;
-    border-radius: 100px;
+  height: 115px;
+  width: 115px;
+  border-radius: 100px;
 }
 
 .links {
   font-family: "Poppins", sans-serif;
-    display: flex;
-    justify-content: space-around;
-    width: 40%;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  
 }
-
 .links a {
-
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 1.2rem;
-    border-bottom: 3px solid transparent;
-    border-radius: 6px;
-    transition: 0.3s ease-in-out;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  border-bottom: 3px solid transparent;
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
 }
 
 .links a:hover {
-    border-bottom: 3px solid #6a99ff ;
-    color: #6a99ff;
-    transform: scale(1.1);
+  border-bottom: 3px solid #0e57f4;
+  color: #0e57f4;
+  transform: scale(1.1);
+  
 }
 
 #carousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin: 20px;
+
 }
 
 #carousel img {
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: 0%;
 }
 
 #main-new {
-    width: 70%;
-    background-color: #ffffff;
+  width: 70%;
+  background-color: #1945a398;
+  margin-left: 20px;
+  margin-right: 40px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 10px #ffffff;
 }
 
 #aside {
-    width: 28%;
-    background-color: rgb(28, 51, 128);
+  width: 38%;
 }
 
 #aside img {
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    object-fit: cover;
+  height: 95%;
+  width: 95%;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 30px ;
 }
 
- main {
-    display: flex;
-    justify-content: space-around;
- }
+main {
+  display: flex;
+  justify-content: space-around;
+}
 
- .heading {
-    font-size: 2rem; /* Define o tamanho da fonte equivalente a 40px */
-    text-align: center; /* Alinha o texto ao centro */
-    margin: 5rem 0; /* Adiciona uma margem */
-  }
+.heading {
+  font-size: 2rem;
+  text-align: center; 
+  margin: 5rem 0; 
+}
 
- .education {
-  padding: 100px 15px; /* Adiciona um espaçamento interno */
-  background: var(--secondary-bg-color); /* Define a cor de fundo */
+.education {
+  padding: 100px 15px;
+  background: var(--secondary-bg-color); 
 }
 
 .education h2 {
-  margin-bottom: 5rem; /* Adiciona uma margem na parte inferior */
+  margin-bottom: 5rem; 
+  
 }
 
 .timeline-items {
-  max-width: 1200px; /* Define a largura máxima */
-  margin: auto; /* Adiciona uma margem automática */
-  display: flex; /* Faz com que os elementos fiquem em linha */
-  flex-wrap: wrap; /* Quebra a linha quando não há espaço */
-  position: relative; /* Define a posição relativa */
+  max-width: 1200px; 
+  margin: auto;
+   display: flex; 
+  flex-wrap: wrap; 
+  position: relative; 
 }
 
 .timeline-items::before {
-    /* Adiciona um pseudo-elemento */
-    content: ""; /* Adiciona um conteúdo vazio */
-    position: absolute; /* Define a posição absoluta */
-    width: 5px; /* Define a largura */
-    height: 100%; /* Define a altura */
-    background-color: #1945a398; /* Define a cor de fundo */
-    left: calc(50% - 1px); /* Define a distância da esquerda */
-    top: 0; /* Define a distância do topo */
-    transform: translateX(-50%); /* Adiciona um efeito de translação */
-    border-radius: 5px; /* Adiciona um raio nas bordas */
-  }
-  
+  content: ""; 
+  position: absolute; 
+  width: 5px; 
+  height: 100%; 
+  background-color: #1945a398; 
+  left: calc(50% - 1px); 
+  top: 0; 
+  transform: translateX(-50%); 
+  border-radius: 5px;
+}
+
 .timeline-item {
-  margin-bottom: 40px; /* Adiciona uma margem */
-  width: 100%; /* Define a largura */
-  position: relative; /* Define a posição relativa */
+  margin-bottom: 40px; 
+  width: 100%;
+  position: relative; 
 }
 
 .timeline-item:last-child {
-  /* Seleciona o último elemento */
-  margin-bottom: 0; /* Remove a margem */
+  margin-bottom: 0; 
 }
 
 .timeline-item:nth-child(odd) {
-  /* Seleciona os elementos ímpares */
-  padding-right: calc(50% + 30px); /* Adiciona um espaçamento à direita */
-  text-align: right; /* Alinha o texto à direita */
+  padding-right: calc(50% + 30px); 
+  text-align: right; 
 }
 
 .timeline-item:nth-child(even) {
-  /* Seleciona os elementos pares */
-  padding-left: calc(50% + 30px); /* Adiciona um espaçamento à esquerda */
-  text-align: left; /* Alinha o texto à esquerda */
+  padding-left: calc(50% + 30px); 
+  text-align: left; 
 }
 
 .timeline-dot {
-    height: 21px; /* Define a altura */
-    width: 21px; /* Define a largura */
-    background-color:#1945a398; /* Define a cor de fundo */
-    box-shadow: 0 0 20px #1945a398, 0 0 30px #1945a398; /* Adiciona uma sombra */
-    position: absolute; /* Define a posição absoluta */
-    left: calc(50% - 11px); /* Define a distância da esquerda */
-    border-radius: 50%; /* Adiciona um raio nas bordas */
-  }
+  height: 21px;
+  width: 21px; 
+  background-color: #1945a398; 
+  box-shadow: 0 0 20px #1945a398, 0 0 30px #1945a398; 
+  position: absolute; 
+  left: calc(50% - 11px);
+  border-radius: 50%; 
+}
 .timeline-date {
-  font-size: 1.6rem; /* Define o tamanho da fonte equivalente a 16px */
-  font-weight: 800; /* Define o peso da fonte */
-  color: #ffffff; /* Define a cor do texto */
-  margin: 0 0 15px; /* Adiciona uma margem */
+  font-size: 1.6rem; 
+  font-weight: 800; 
+  color: #ffffff; 
+  margin: 0 0 15px; 
 }
 
 .timeline-content {
-  background: #1945a398; /* Define a cor de fundo */
-  border: 1px solid #ffffff; /* Adiciona uma borda */
-  padding: 30px 50px; /* Adiciona um espaçamento interno */
-  border-radius: 5px; /* Adiciona um raio nas bordas */
-  box-shadow: 0 0 10px #ffffff; /* Adiciona uma sombra */
-  cursor: pointer; /* Adiciona um cursor de ponteiro */
-  transition: 0.3s ease-in-out; /* Adiciona uma transição suave */
+  background: #1945a398; 
+  border: 1px solid #ffffff; 
+  padding: 30px 50px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px #ffffff; 
+  cursor: pointer; 
+  transition: 0.3s ease-in-out; 
 }
 
 .timeline-content:hover {
-  transform: scale(1.05); /* Adiciona um efeito de escala */
-  box-shadow: 0 0 20px #ffffff; /* Adiciona uma sombra */
+  transform: scale(1.05); 
+  box-shadow: 0 0 20px #ffffff; 
 }
 
 .timeline-content h3 {
-  font-size: 1.6rem; /* Define o tamanho da fonte equivalente a 16px */
-  font-weight: 600; /* Define o peso da fonte */
-  color: #ffffff; /* Define a cor do texto */
-  margin: 0 0 10px; /* Adiciona uma margem */
+  font-size: 1.6rem; 
+  font-weight: 600; 
+  color: #ffffff; 
+  margin: 0 0 10px; 
 }
 
 .timeline-content p {
-  font-size: 1.2rem; /* Define o tamanho da fonte equivalente a 16px */
-  font-weight: 300; /* Define o peso da fonte */
-  color: #ffffff; /* Define a cor do texto */
-  line-height: 1.2; /* Define a altura da linha */
+  font-size: 1.2rem; 
+  font-weight: 300; 
+  color: #ffffff; 
+  line-height: 1.2;
+}
+
+#P-o {
+  font-size: 10 rem;
+  display: flex;
+}
+
+#text1 {
+  flex-direction: column;
 }
 
 #P-0-img {
-  height: 115px;
-  width: 115px;
+  height: 180px;
+  width: 180px;
   border-radius: 100px;
+  margin-bottom: 5rem;
+  margin-left: 160px;
+}
+
+#Smaster {
+  font-size: 10 rem;
+  display: flex;
+  justify-content: end; 
+  margin-right: 12rem;
+}
+
+#text2 {
+  flex-direction: column;
+}
+
+#SMaster-img {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+  margin-bottom: 5rem;
+
+}
+
+#Dev1 {
+  font-size: 10 rem;
+  display: flex;
+  
+}
+
+#text3 {
+  flex-direction: column;
+}
+
+#Dev1-img {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+  margin-bottom: 5rem;
+  margin-left: 160px;
+}
+
+#Dev2 {
+  font-size: 10 rem;
+  display: flex;
+  justify-content: end;
+  margin-right: 12rem;
+}
+
+#text4 {
+  flex-direction: column;
+}
+
+#Dev2-img {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+  margin-bottom: 5rem;
+}
+
+#Dev3 {
+  font-size: 10 rem;
+  display: flex;
+  
+}
+
+#text5 {
+  flex-direction: column;
+}
+
+#Dev3-img {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+  margin-bottom: 5rem;
+  margin-left: 160px;
+}
+
+#Members{
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+.Carro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 125vh;
+  margin-bottom: 10rem; 
+  padding-top: 200px;
+  margin-top: -200px;
+}
+
+#Carrinho3D {
+  height: 25em;
+  margin-bottom: 5%;
+}
+
+#car {
+  background: #1945a398; 
+  border: 1px solid #ffffff; 
+  padding: 50px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px #ffffff; 
+  cursor: pointer; 
+  transition: 0.3s ease-in-out; 
+  width: 60rem;
+}
+
+.Sustentabilidade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 110vh; 
+
+}
+
+
+#sustainability {
+  background: #1945a398; 
+  border: 1px solid #ffffff; 
+  padding: 50px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px #ffffff; 
+  cursor: pointer; 
+  transition: 0.3s ease-in-out; 
+  width: 60rem;
+  margin-bottom: 2%;
+}
+
+#MDF {
+  font-size: 10 rem;
+  display: flex;
+  justify-content: end;
+  width: 60rem;
+  margin-right: 2rem;
+}
+
+#text6 {
+  flex-direction: column;
+}
+
+#bMDF {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+
+}
+
+#PLA {
+  font-size: 10 rem;
+  display: flex;
+  justify-content: end;
+  margin-right: 2rem;
+  width: 60rem;
+}
+
+#text7 {
+  flex-direction: column;
+}
+
+#cPLA {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+
+}
+
+.Sustentabilidade h2 {
+  margin-bottom: 2rem; 
+}
+
+
+footer a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#finish {
+  margin-top: 8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+#class {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+#gif {
+  width: 80%; 
+  border-radius: 10px; 
+  object-fit: cover;
+}
+
+#home {
+  padding-top: 300px;
+  margin-top: -300px;
+}
+
+#development{
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+#Sustentavel{
+  padding-top: 200px;
+  margin-top: -200px;
 }
