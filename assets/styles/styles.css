@@ -13,7 +13,7 @@
 }
 
 body {
-  background-image: url(/assets/images/background.jpg);
+  background-image: url(../images/background.jpg);
   margin-top: 12rem;
 }
 
@@ -230,7 +230,6 @@ main {
 #P-o {
   font-size: 10 rem;
   display: flex;
-  
 }
 
 #text1 {
@@ -314,14 +313,15 @@ main {
   height: 180px;
   width: 180px;
   border-radius: 100px;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   margin-left: 160px;
 }
 
 #Members{
   display: flex;
   flex-direction: column;
-  
+  padding-top: 100px;
+  margin-top: -100px;
 }
 
 .Carro {
@@ -331,6 +331,8 @@ main {
   justify-content: center;
   height: 125vh;
   margin-bottom: 10rem; 
+  padding-top: 200px;
+  margin-top: -200px;
 }
 
 #Carrinho3D {
@@ -355,7 +357,6 @@ main {
   align-items: center;
   justify-content: center;
   height: 110vh; 
-
 }
 
 
@@ -410,7 +411,7 @@ main {
 }
 
 .Sustentabilidade h2 {
-  margin-bottom: 2%; 
+  margin-bottom: 2rem; 
 }
 
 
@@ -431,11 +432,25 @@ footer a {
   display: flex; 
   justify-content: center; 
   align-items: center; 
-  height: 100vh; 
 }
 
 #gif {
   width: 80%; 
   border-radius: 10px; 
   object-fit: cover;
+}
+
+#home {
+  padding-top: 300px;
+  margin-top: -300px;
+}
+
+#development{
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+#Sustentavel{
+  padding-top: 200px;
+  margin-top: -200px;
 }
