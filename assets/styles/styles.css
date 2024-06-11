@@ -13,7 +13,7 @@
 }
 
 body {
-  background-image: url(/assets/images/background.jpg);
+  background-image: url(../images/background.jpg);
   margin-top: 12rem;
 }
 
@@ -358,7 +358,6 @@ main {
   align-items: center;
   justify-content: center;
   height: 110vh; 
-
 }
 
 
